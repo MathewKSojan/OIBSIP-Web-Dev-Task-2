@@ -1,0 +1,181 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 9px;
+}
+
+
+.headnnav a{
+    color: #2ecc71;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.headnnav a:hover{
+    color: #eee;
+}
+
+
+.nav{
+    display: flex;
+    color: cadetblue;
+    padding-top: 0px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 2px;
+    padding-right: 0px;
+}
+
+
+.namenpic{
+    padding-top: 20px;
+    padding-left: 90px;
+    padding-right: 2cm;
+    padding-bottom: 0cm;
+}
+
+/* .namenpic a:hover{
+    opacity: 0;
+} */
+
+.about {
+    opacity: 0; /* start with the text hidden */
+    animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+  }
+
+  .experience {
+    opacity: 0; /* start with the text hidden */
+    animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+  }
+  .education{
+        opacity: 0; /* start with the text hidden */
+        animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+      }
+
+      .projects {
+        opacity: 0; /* start with the text hidden */
+        animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+      }
+
+      .contact {
+        opacity: 0; /* start with the text hidden */
+        animation: appear 1s forwards; /* call the "appear" animation for 1 second */
+      }
+
+      /* .headnnav {
+        opacity: 0; /* start with the text hidden */
+        /* animation: appear 1s forwards;  */
+      /* } */
+
+      /* .body {
+        opacity: 0; /* start with the text hidden */
+        /* animation: appear 1s forwards;  */
+      /* } */ 
+
+.about{
+    padding-top: 2.5cm;
+    text-align: center;
+}
+
+/* .experience{
+
+} */
+
+span{
+    color: #2ecc71;
+    }
+
+h3 {
+    color: #eee;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.social a{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.social a:hover{
+    transform: scale(1.1);
+    background-color: #2ecc71;
+    transition: .4s;
+}
+
+.abt{
+    height: 50px;
+    width: 150px;
+    color: #eee;
+    background: rgba(255,255,255,0.1);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 3px;
+    line-height: 24px;
+    border: 2px solid #2ecc71;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.aboutp{
+    height: 0px;
+    color: #eee;
+    background-color:rgba(255,255,255,0.1) ;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+.abt:hover{
+    background: transparent;
+    background-color: #2ecc71;
+    border:2px solid #9decbe;
+    color: #eee;
+    transition: .4s;
+}
+
+.edu-hd{
+    padding-left: 2cm;
+    padding-bottom: 0%;
+    
+}
+
+.edu-sh{
+    padding-left: 8.5cm;
+    padding-top: 0%;
+    font-size: 20px;
+}
+
+.edu-ssh{
+    padding-left: 8.5cm;
+    padding-top: 0%;
+}
+
+.pro_c{
+    padding-left: 11cm;
+    padding-right: 9cm;
+}
+
+@keyframes appear {
+    0% {
+      opacity: 0; /* start with the text hidden */
+      transform: translateY(20px); /* move the text 20px down */
+    }
+    100% {
+      opacity: 1; /* end with the text fully visible */
+      transform: translateY(0); /* move the text back to its original position */
+    }
+  }
